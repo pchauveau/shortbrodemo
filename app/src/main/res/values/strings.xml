@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">shortbrodemo</string>
+    <string name="image_error_loading">"Oups ! Il semblerait qu'il y ai une erreur !"</string>
+    <string name="download_all">Download All</string>
+    <string name="image_downloaded">All images downloaded</string>
+    <string name="image_downloaded_error">Some images where not downloaded</string>
+</resources>
