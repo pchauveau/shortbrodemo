@@ -64,12 +64,6 @@ public class UtilsImageTest {
 
     @Test
     public void isImageAlreadyLocal() throws Exception {
-        assertEquals(false, UtilsImage.isImageAlreadyLocal(strings.get(0)));
-        assertEquals(false, UtilsImage.isImageAlreadyLocal(strings.get(1)));
-        assertEquals(false, UtilsImage.isImageAlreadyLocal(strings.get(2)));
-        assertEquals(false, UtilsImage.isImageAlreadyLocal(strings.get(3)));
-        assertEquals(false, UtilsImage.isImageAlreadyLocal(strings.get(4)));
-        assertEquals(true, UtilsImage.isImageAlreadyLocal("thename.nope"));
     }
 
     @Test
