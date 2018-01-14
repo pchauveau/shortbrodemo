@@ -17,7 +17,6 @@ import com.shortbrodemo.pch.shortbrodemo.adapter.ListViewAdapter;
 import com.shortbrodemo.pch.shortbrodemo.event.GetAllImageEvent;
 import com.shortbrodemo.pch.shortbrodemo.event.WebserviceEvent;
 import com.shortbrodemo.pch.shortbrodemo.model.Edges;
-import com.shortbrodemo.pch.shortbrodemo.model.Node;
 import com.shortbrodemo.pch.shortbrodemo.session.SessionData;
 import com.shortbrodemo.pch.shortbrodemo.utils.UtilsImage;
 import com.shortbrodemo.pch.shortbrodemo.webservices.GetBroccoli;
@@ -81,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         requestPermission();
 
         GetBroccoli getBroccoli = new GetBroccoli();
-        getBroccoli.GetBroccoli();
+        getBroccoli.getBroccoli();
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed() {
         // super.onBackPressed();
         GetBroccoli getBroccoli = new GetBroccoli();
-        getBroccoli.GetBroccoli();
+        getBroccoli.getBroccoli();
     }
 
     /**

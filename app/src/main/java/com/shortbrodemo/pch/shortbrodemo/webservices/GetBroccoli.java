@@ -16,7 +16,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class GetBroccoli {
 
-    public void GetBroccoli(){
+    public void getBroccoli(){
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(InstagramService.ADDRESS_INSTAGRAM)
                 .addConverterFactory(GsonConverterFactory.create())
